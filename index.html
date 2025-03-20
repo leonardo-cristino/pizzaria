@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title> Document </title>
+</head>
+<body>
+<form>
+<h3> cadastro </h3>
+<input type = "text" placeholder = "login" id = "login">
+<input type = "password" placeholder = "senha" id = "senha">
+<input type = "password" placeholder = "telefone" id = "telefone">
+<input type = "password" placeholder = "email" id = "email">
+<input type = "submit" onclick = "logar(); return false">
+</form>
+<script>
+function logar(){}
+varlogin = document.gptElementBYID ('LOGIN').value;
+Varsenha = document.getElementBYID('SENHA').value;
+if(LOGIN == "ADMIN" &&SENHA == "123"){
+alert('sucesso')
+location.href = "Home.HTML";
+}else{
+alert('USUARIO OU SENHA INCORRETAS');
+} 
+</script>
+</body>
+</html>
